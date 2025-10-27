@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+  font-family: "Comic Relief", system-ui;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url(images/wallpaper.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-content .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: right;
+}
+
+.menu .navbar ul li a:hover {
+    color: #CE967B;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px; 
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 { 
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #b1c7ac;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #b1c7ac;
+}
+
+.mitsuaya{
+    padding: 100px;
+    background-color: #E1E2E6;
+    position: relative;
+}
+
+.mitsuaya-content{
+    text-align: center;
+}
+
+.mitsuaya.content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15pc;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+
+}
+
+.nadia-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Yuri-verde{
+    padding: 25px;
+}
+
+.Dany-img {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Nadia-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mitsuaya-h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+.songs {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url(images/wallpaper.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+}
+.songs {
+    display: flex;
+}
+.songs.content {
+    text-align: center;
+}
+
+.songs-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+
+.songs-content p {
+    font-size: 16px;
+    color:#C5C5C5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.songs-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.songs-1 {
+    padding: 0 100px;
+}
+
+.songs-1 img {
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.song-1 h3{
+    color: #EACCB3;
+    font-size: 18px;
+}
+
+.song-1 p {
+    color: #C5C5C5;
+    font-size: 14px;
+}
+
+.song-2 img {
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.song-3 img {
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.song-4 img {
+    width: 25px;
+    margin-bottom: 15px;
+}
